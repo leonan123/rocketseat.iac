@@ -41,7 +41,7 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: preview
-          stack-name: leonan123/stg
+          stack-name: rocketseat.iac/stg
           cloud-url: s3://lo-ftr-pulumi-state
         env: 
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
